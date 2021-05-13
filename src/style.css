@@ -118,8 +118,8 @@
         opacity: 1;
         transition: 0.5s ease;
         z-index: 99;
-        height: 72vh;
-        font-size: 1.6rem;
+        height: 70vh;
+        font-size: 1rem;
     }
     #navbar_logo{
         padding-left: 25px;
@@ -154,7 +154,7 @@
     #mobile-menu{
         position: absolute;
         top: 20%;
-        right: 5%;
+        right: 10%;
         transform: translate(5%, 20%);
     }
     .navbar_toggle .bar{
@@ -226,7 +226,7 @@
 
 @media screen and (max-width: 768px){
     .structure_heading{
-        font-size: 60px;
+        font-size: 30px;
     }
     .structure_description{
         font-size: 30px;
@@ -267,7 +267,7 @@
 }
 
 .main_content h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #436b75;
 }
 
@@ -372,7 +372,7 @@
         margin-top: 2rem;
     }
     .main_content h2{
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .main_content p{
         font-size: 1.2rem;
@@ -394,7 +394,7 @@
         margin-top: 3rem;
     }
     .main_content h2{
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .main_content p{
         font-size: 1.2rem;
@@ -433,14 +433,14 @@
 
 .experiences_wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
 .experiences_card{
     margin: 15px;
     height: 400px;
-    width: 600px;
+    width: 500px;
     padding-left: 20px;
     border-radius: 4px;
     display: flex;
@@ -449,4 +449,29 @@
     color: #3B3632;
     background-image: linear-gradient(to bottom, #FFFDF8 60%, #FDD6CD 100%);
     transition: 0.3s ease-in;
+}
+
+.experiences_card:hover{
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1300px) {
+        .experiences_wrapper{
+            grid-template-columns: 1fr;
+
+        }
+}
+
+@media screen and (max-width: 768px) {
+        .experiences_wrapper{
+            grid-template-columns: 1fr;
+        }
+        .experiences_card{
+            height: 200px;
+            width: 300px;
+
+        }
+    
 }
