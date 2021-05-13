@@ -337,3 +337,116 @@
 .fa-laptop-code{
     font-size: 13rem;
 }
+
+#card-2 {
+    background: #FDD6CD;
+    background: -webkit-linear-gradient(to right, #395157 10%, #72A1AD 100%);
+    background-color: linear-gradient(to right, #395157 10%, #72A1AD 100%);
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 1100px) {
+    .main_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+    .main_img_container{
+        display: flex;
+        justify-content: center;
+    }
+    .main_img_card{
+        height: 400px;
+        width: 400px;
+    }
+    .main_content{
+        text-align: right;
+        margin-bottom: 4rem;
+    }
+    .main_content h1{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .main_content h2{
+        font-size: 2rem;
+    }
+    .main_content p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main_img_card{
+        width: 250px;
+        height: 250px;
+    }
+
+    .fa-laptop-code{
+        font-size: 4rem;
+    }
+    .main_content h1{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .main_content h2{
+        font-size: 2rem;
+    }
+    .main_content p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .main_btn{
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+}
+
+/* Experiences Section */
+
+.experiences{
+    background: #FFFDF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.experiences h1{
+    background: #FDD6CD;
+    background-color: #FDD6CD;
+    background-image: linear-gradient(to bottom, #3B3632 60%, #FDD6CD 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+
+.experiences_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.experiences_card{
+    margin: 15px;
+    height: 400px;
+    width: 600px;
+    padding-left: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3B3632;
+    background-image: linear-gradient(to bottom, #FFFDF8 60%, #FDD6CD 100%);
+    transition: 0.3s ease-in;
+}
