@@ -334,7 +334,7 @@
     background-image: linear-gradient(to right, #395157 10%, #72A1AD 100%);
 }
 
-.fa-laptop-code{
+.fa-laptop-code, .fa-users{
     font-size: 13rem;
 }
 
@@ -386,7 +386,7 @@
         height: 250px;
     }
 
-    .fa-laptop-code{
+    .fa-laptop-code, .fa-users{
         font-size: 4rem;
     }
     .main_content h1{
