@@ -23,16 +23,16 @@
             </div>
             <ul class="navbar_menu">
                 <li class="navbar_item">
-                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                    <a href="#home" class="navbar_links" id="home-page"> < Home /></a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#about" class="navbar_links" id="about-page">Sobre mim</a>
+                    <a href="#about" class="navbar_links" id="about-page"> < Sobre mim /></a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#experiences" class="navbar_links" id="experiences-page">Experiência</a>
+                    <a href="#experiences" class="navbar_links" id="experiences-page"> < Experiência /></a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#contact" class="navbar_links" id="contact-page">Contato</a>
+                    <a href="#contact" class="navbar_links" id="contact-page"> < Contato /></a>
                 </li>
                 <li class="navbar_btn">
                     <a href="https://github.com/lavinyacorreia" class="button" id="projects" target=”_blank”>Projetos</a>
@@ -45,7 +45,9 @@
     <div class="structure_container">
         <h1 class="structure_heading"> Desenvolvimento de <span>software</span></h1>
         <p class="structure_description">Lavinya Correia</p><br>
-        <button class="main_btn"><a href="#about">Conhecer Lavinya</a></button>
+        <a href="#about">
+        <i class="fas fa-arrow-down"></i></a>
+        
     </div>
 </div>
 <!-- ABOUT -->
@@ -53,21 +55,24 @@
     <div class="main_container">
         <div class="main_img_container">
             <div class="main_img_card">
-                <img src="./img/foto.png" />
+                <img src="./img/foto.png" class="foto"/><br>
             </div>
         </div>
             <div class="main_content">
                 <h1>Sobre mim</h1>
                 <h2>Desenvolvedora Júnior</h2>
                 <hr>
-                <p>Meu nome é Lavinya, tenho 19 anos, moro em Santo André - SP e atualmente estudo na Universidade Federal do ABC (UFABC) cursando Bacharelado em Ciência e Tecnologia, tal qual ingressei em <strong>primeiro</strong> lugar na lista de aprovados. </p>
-                    <p> Formada como Técnica em Informática para Internet pela Etec Parque Belém, estudo com duração de três anos, com enfâse em tecnologias para web <strong>(JavaScript, HTML, CSS, Protocolo de redes, C#, Php, MySQL)</strong>. Descobri minha paixão pela tecnologia, pelo ciclo constante de aprendizado e o encontro de soluções para os desafios aparentes durante o desenvolvimento. </p>
+                <div class="about-text">
+                    <p>Meu nome é Lavinya, tenho 19 anos, moro em Santo André - SP e atualmente estudo na Universidade Federal do ABC (UFABC) cursando Bacharelado em Ciência e Tecnologia, tal qual ingressei em <strong>primeiro</strong> lugar na lista de aprovados. </p>
+                    <p> Formada como Técnica em Informática para Internet pela Etec Parque Belém, estudo com duração de três anos, com enfâse em tecnologias para web <strong>(JavaScript, HTML, CSS, Protocolo de redes, C#, Php, MySQL)</strong>. Descobri minha paixão pela tecnologia, pelo ciclo constante de aprendizado e o encontro de soluções para os desafios aparentes durante o desenvolvimento. Sou autoditada e aprendi programação em <strong>Java</strong> do básico ao avançado sozinha, clique em "Projetos" no menu, você será direcionado para o meu GitHub.</p>
                         <p>  Acredito que trabalho em equipe é essencial para a formação de um bom sistema, bem como o compartilhamento de conhecimento para a formação de bons profissionais. </p>
 
                         <center><p><i>Never stop learning</i></p></center>
-                <p>Possuo <strong>inglês fluente</strong> e francês intermediário (concluindo o último semestre de Francês, Centro de Línguas Dom Pedro II).</p>
+                <p>Possuo <strong>inglês fluente</strong> e francês intermediário (concluindo o último semestre de Francês, Centro de Línguas Dom Pedro II, três anos de duração).</p>
 
                 <p>Meus hobbies variam entre leitura de filosofia, estudo de línguas e jogos para PC.</p>
+                </div>
+                
             </div>
     </div>
 </div>
@@ -79,13 +84,13 @@
         <div class="experiences_card">
             <h2>Qualidade de Software - TOTVS JuriTIs</h2>
             <p>Estágio | out. de 2020 até o momento</p>
-            <p>Responsável pela realização de testes no produto; metodologia Scrum; testes automatizados.</p>
+            <p>Responsável pela realização de testes no produto; metodologia Scrum; testes automatizados com o framework TestCafé do JavaScript.</p>
         </div>
         <div class="experiences_card">
             <h2>English Language Teacher - StartPro</h2>
             <p>Tempo integral | fev. de 2020 até out. de 2020</p>
             <p>
-               Responsable for teaching kids and teenagers - listening, writing and reading. 
+               Responsable for teaching kids and teenagers - skills as listening, writing and reading. 
             </p>
         </div>      
     </div> 
@@ -96,18 +101,44 @@
 <div class="main" id="contact">
     <div class="main_container">
         <div class="main_content">
-            <h1>Contato</h1>
-            <hr>
-            <p>Você pode falar comigo via e-mail: <br> lavinyacorreia01@gmail.com</p>
-            <p>Também pode mandar uma mensagem via LinkedIn:<br> https://www.linkedin.com/in/lavinyacorreiadev/ </p>
+            <div class="location">
+                <a href="https://www.google.com/maps/place/Vila+Sao+Pedro,+Santo+Andr%C3%A9+-+SP,+09210-820/@-23.6389843,-46.5328933,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce42bbdeeece5f:0x553a978d67b59745!8m2!3d-23.6394399!4d-46.531275" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                
+                <h5>Localização</h5>
+                <h6>Santo André - SP</h6>
+            </div>
+         
+            <div class="email">
+                <a href="mailto:lavinya.correia01@gmail.com?subject=Contato" target="_blank"><i class="far fa-envelope"></i></a>
+                
+                <h5>E-mail</h5>
+                <h6>lavinya.correia01@gmail.com</h6>
+            </div>
+            
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/lavinyacorreiadev/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <h5>LinkedIn</h5>
+                <h6>Lavinya Correia</h6>
+            </div>
+
         </div>
         <div class="main_img_container">
             <div class="main_img_card">
-                <i class="fas fa-users"></i>
+                <h2>Quer me contatar? <br>Envie um e-mail ou me adicione no LinkedIn para conversarmos!</h2> 
             </div>
         </div>    
     </div>
 </div>
+
+<footer>
+    <div class="content-box">
+        <div class="icons-social">
+            <a href="https://github.com/lavinyacorreia" target="_blank"><i class= "fab fa-github" style="font-size: 1.5em;"></i></a>
+            <a href="https://www.linkedin.com/in/lavinyacorreiadev/" target="_blank"><i class="fab fa-linkedin-in" style="font-size: 1.5em;"></i></a>
+        </div>
+        <p>© CopyRight Lavinya Correia - 2021</p>
+    </div>
+</footer>
 
 <script src="app.js"></script>
 </body>
